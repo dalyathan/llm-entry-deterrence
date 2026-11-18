@@ -1,0 +1,53 @@
+{
+ "leaders": {
+  "haiku": {
+   "market": "expand",
+   "reversed": "enter",
+   "costly": "keep",
+   "abstract": "F",
+   "security": "harden"
+  },
+  "sonnet": {
+   "market": "expand",
+   "reversed": "enter",
+   "costly": "keep",
+   "abstract": "F",
+   "security": "harden"
+  }
+ },
+ "followers_on_path": {
+  "haiku": {
+   "market": "stay out",
+   "reversed": "keep",
+   "costly": "enter",
+   "abstract": "Q",
+   "security": "no attack",
+   "cheap_talk": "enter"
+  },
+  "sonnet": {
+   "market": "stay out",
+   "reversed": "keep",
+   "costly": "enter",
+   "abstract": "Q",
+   "security": "no attack",
+   "cheap_talk": "enter"
+  }
+ },
+ "followers_off_path": {
+  "haiku": {
+   "market": "enter",
+   "reversed": "keep",
+   "costly": "stay out",
+   "abstract": "P",
+   "security": "attack"
+  },
+  "sonnet": {
+   "market": "enter",
+   "reversed": "keep",
+   "costly": "stay out",
+   "abstract": "P",
+   "security": "attack"
+  }
+ },
+ "notes": "haiku security counterfactual added an out-of-role disclaimer; haiku abstract leader needed one rerun (first agent returned no report)."
+}
